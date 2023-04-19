@@ -1,0 +1,82 @@
+.add-recipe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-left: 0.7rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.form-control textarea {
+  resize: none;
+  height: 200px;
+}
+
+.form-control input[type="file"] {
+  padding: 0;
+}
+
+.ingredients-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ingredient-item {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.ingredient-item span {
+  margin-right: 0.5rem;
+}
+
+.ingredient-item button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button {
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  height: 100%;
+}
+
+button:hover {
+  background-color: #0a58ca;
+}

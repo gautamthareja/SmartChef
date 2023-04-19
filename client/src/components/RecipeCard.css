@@ -1,0 +1,32 @@
+.recipe-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    max-width: 400px;
+    padding: 16px;
+  }
+  
+  .recipe-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .recipe-card img {
+    border-radius: 8px;
+    max-width: 0%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .recipe-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  
+  .recipe-card p:last-child {
+    margin-bottom: 0;
+  }
+  

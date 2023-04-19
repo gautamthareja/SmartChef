@@ -1,0 +1,54 @@
+.pantry-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  input[type='text'] {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #0d6efd;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0a58ca;
+  }
+  
+  .pantry-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pantry-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ced4da;
+  }
+  
+  .pantry-items button {
+    background-color: #dc3545;
+  }
+  
+  .pantry-items button:hover {
+    background-color: #b02a37;
+  }
+  

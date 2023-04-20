@@ -7,7 +7,7 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
     <nav className='navbar'>
       {isLoggedIn ? (
         <>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">SmartChef Home</NavLink>
           <NavLink to="/pantry">Pantry Items</NavLink>
           <NavLink to="/recipes">Recipes</NavLink>
           <NavLink to="/addRecipe">Add a Recipe</NavLink>
@@ -17,7 +17,7 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
         </>
       ) : (
         <>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">SmartChef Home</NavLink>
           <NavLink to="/login">Login</NavLink>
           <NavLink to="/signup">Signup</NavLink>
         </>
